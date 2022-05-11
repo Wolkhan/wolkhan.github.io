@@ -1,0 +1,77 @@
+/* Menu desplegable */
+
+body {margin-right: 45px;}
+
+#header {
+    margin: auto;
+    width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.nav>li {
+    float: left;
+    width: 20%;
+}
+
+.nav li a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.nav li a:hover {
+    background-color: crimson;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 240px;
+    margin-left: 145px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+
+/* -------------- */
+
+
+/* Fondo */
+
+body {
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=3963&resolucion=2560x1440");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#playlistlofi{
+    margin: auto;
+    padding-top:300px;
+    text-align: center;
+   
+    
+   
+  
+}
+
