@@ -41,10 +41,10 @@ Contact: @Brais
        `document.body.style.backgroundColor='rgb('+a+','+b+','+c +')';}`
 
 **Codigo JAVA:**
-`public Evento2() {`
-		`Container pane = getContentPane();`
-		`BorderLayout layout = new BorderLayout();`
-		`pane.setLayout(layout);`
+`public Evento2() {
+		Container pane = getContentPane();
+		BorderLayout layout = new BorderLayout();
+		pane.setLayout(layout);`
 
 
 ![Gif](patata.gif)
